@@ -1,0 +1,23 @@
+{
+  "name": "e2e-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "cucumber-pretty": "^1.5.2",
+    "nightwatch": "^1.2.2",
+    "nightwatch-api": "^2.3.0",
+    "nightwatch-vrt": "^0.2.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
